@@ -22,7 +22,7 @@
     }
   },
   "environment": {
-  "terminals": [{"name": "Terminal 2", "target": "host01"}]
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "centos-vm"
