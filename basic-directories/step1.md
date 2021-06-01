@@ -7,3 +7,5 @@ Explicación
 comando
 
 `ls`{{execute}}
+
+`pwd`{{execute}}
