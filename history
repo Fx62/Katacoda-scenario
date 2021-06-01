@@ -1,0 +1,40 @@
+    1  systemctl 
+    2  dd if=/dev/zero of=disk count=1024 bs=1024
+    3  ls
+    4  file disk 
+    5  lsof disk
+    6  mkswap disk 
+    7  mkfs.xfs disk
+    8  mkfs.xfs disk -f
+    9  lsblk
+   10  rm disk 
+   11  dd if=/dev/zero of=disk count=1024 bs=1024M
+   12  dd if=/dev/zero of=disk count=1024 bs=1024
+   13  df -h
+   14  ls
+   15  dd if=/dev/zero of=disk count=1024 bs=1024
+   16  losetup /dev/loop0 disk 
+   17  fdisk -l /dev/loop0
+   18  lsblk
+   19  fdisk -l /dev/loop3
+   20  losetup /dev/loop3 disk 
+   21  lsblk 
+   22  dd if=/dev/zero of=disk count=1024 bs=1M
+   23  losetup /dev/loop4 disk 
+   24  lsblk 
+   25  fdisk -l /dev/loop4
+   26  fdisk /dev/loop4
+   27  partprobe 
+   28  mkfs.ext4 /dev/loop4 p2
+   29  mkfs.ext4 /dev/loop4p2
+   30  lsblk 
+   31  kpartx -a /dev/loop4
+   32  lsblk 
+   33  mkfs.ext4 /dev/loop4p2
+   34  cat /proc/partitions 
+   35  partx
+   36  partx -a /dev/loop4
+   37  lsblk
+   38  cat /proc/partitions 
+   39  mkfs.ext4 /dev/loop4p2
+   40  history 
