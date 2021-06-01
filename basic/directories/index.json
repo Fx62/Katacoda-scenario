@@ -1,24 +1,24 @@
 {
-  "title": "Navegar entre directorios",
-  "description": "Crear, mover, eliminar y navegación entre directorios",
+  "title": "Utilización de directorios",
+  "description": "Uso de directorios en tareas cotidianas",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Ubicaci�n de archivos",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Tipos de archivos",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "Crear y borrar directorios",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "Copiar y mover directorios",
+        "title": "Step 4",
         "text": "step4.md"
       }
     ],

@@ -1,0 +1,11 @@
+{
+  "title": "Comandos Básicos",
+  "description": "Comandos básicos para la administración de sistemas operativos GNU-Linux",
+  "courses": [
+    {
+      "course_id": "directories",
+      "title": "Utilización de directorios",
+      "description": "Uso de directorios en tareas cotidianas"
+    }
+  ]
+}
