@@ -3,7 +3,7 @@
   "description": "Comando normalmente utilizados en administración de sistemas operativos GNU-Linux",
   "courses": [
     {
-      "course_id": "directories",
+      "course_id": "basic-commands-directories",
       "title": "Navegar entre directorios",
       "description": "Crear, mover, eliminar y navegación entre directorios"
     }
