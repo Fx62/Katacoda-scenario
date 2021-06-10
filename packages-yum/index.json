@@ -1,0 +1,38 @@
+{
+  "title": "Gestor de paquetes yum",
+  "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Red Hat Enterprise Linux",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "¿Qué es Yum?",
+        "text": "step1.md"
+      },
+      {
+        "title": "Actualizar repositorios",
+        "text": "step2.md"
+      },
+      {
+        "title": "Repositorios adicionales",
+        "text": "step3.md"
+      },
+      {
+        "title": "Mantener paquetes",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "centos"
+  }
+}
