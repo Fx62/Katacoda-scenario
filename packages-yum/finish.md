@@ -4,3 +4,4 @@ En el anterior se han mostrado las siguientes acciones de administración con el
  - Agregar repositorios adicionales
  
 [Marcar como finalizado](http://localhost:8080/courses)
+<a href="http://localhost:8080/courses">click</a>
