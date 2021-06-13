@@ -10,7 +10,7 @@ Actualizar sistema operativo
 `yum update`{{execute}}
 
 Actualizar paquetes con versiones vulnerables
-yum update --security`{{execute}}
+`yum update --security`{{execute}}
 
 
 
