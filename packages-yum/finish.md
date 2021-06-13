@@ -2,3 +2,5 @@ En el anterior se han mostrado las siguientes acciones de administración con el
  - Actualizar paquetes y sistema operativo
  - Instalar y desinstalar paquetes
  - Agregar repositorios adicionales
+ 
+[Marcar como finalizado](/courses)
