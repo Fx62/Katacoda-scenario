@@ -10,15 +10,15 @@
         "text": "step1.md"
       },
       {
-        "title": "Actualizar paquetes y sistema operativo",
+        "title": "Actualizar repositorios",
         "text": "step2.md"
       },
       {
-        "title": "Instalar y desinstalar paquetes",
+        "title": "Repositorios adicionales",
         "text": "step3.md"
       },
       {
-        "title": "Agregar repositorios adicionales",
+        "title": "Mantener paquetes",
         "text": "step4.md"
       }
     ],

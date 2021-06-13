@@ -1,24 +1,24 @@
 {
-  "title": "Gestor de paquetes yum",
-  "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Red Hat Enterprise Linux",
+  "title": "Gestor de paquetes apt",
+  "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "¿Qué es Yum?",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Actualizar paquetes y sistema operativo",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "Instalar y desinstalar paquetes",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "Agregar repositorios adicionales",
+        "title": "Step 4",
         "text": "step4.md"
       }
     ],
@@ -33,6 +33,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "centos-vm"
+    "imageid": "ubuntu:2004"
   }
 }
