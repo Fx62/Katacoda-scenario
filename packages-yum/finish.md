@@ -3,4 +3,4 @@ En el anterior se han mostrado las siguientes acciones de administración con el
  - Instalar y desinstalar paquetes
  - Agregar repositorios adicionales
  
-![Marcar como finalizado](http://localhost:8080/courses)
+[Marcar como finalizado](http://localhost:8080/courses)
