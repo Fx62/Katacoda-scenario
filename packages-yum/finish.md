@@ -3,5 +3,4 @@ En el anterior se han mostrado las siguientes acciones de administración con el
  - Instalar y desinstalar paquetes
  - Agregar repositorios adicionales
  
-[Marcar como finalizado](http://localhost:8080/courses)
-<a href="http://localhost:8080/courses">click</a>
+<a href="http://localhost:3000/api/user/5">click</a>
