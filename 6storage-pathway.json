@@ -1,0 +1,12 @@
+{
+  "title_id": "storage",
+  "title": "Almacenamiento",
+  "description": "Administrar dispositivos de almacenamiento, sistemas de archivos y puntos de montaje",
+  "courses": [
+    {
+      "course_id": "storage-lvm",
+      "title": "LVM",
+      "description": "Administrar almacenamiento por medio de volumenes lógicos"
+    }
+  ]
+}

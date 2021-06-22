@@ -1,0 +1,17 @@
+{
+  "title_id": "packages",
+  "title": "Gestores de paquetes",
+  "description": "Gestores de paquetes para administración de dependencias en sistmas operativos GNU-Linux",
+  "courses": [
+    {
+      "course_id": "packages-yum",
+      "title": "Gestor de paquetes yum",
+      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Red Hat Enterprise Linux"
+    },
+    {
+      "course_id": "packages-apt",
+      "title": "Gestor de paquetes apt",
+      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian"
+    }
+  ]
+}
