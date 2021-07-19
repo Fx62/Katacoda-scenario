@@ -12,6 +12,16 @@
       "course_id": "basic-files",
       "title": "Gestión de archivos",
       "description": "Uso de herramientas para la gestión de archivos de texto plano"
+    },
+    {
+      "course_id": "basic-sortfiles",
+      "title": "Jerarquía de sistemas de archivos",
+      "description": "Orden y ubicación de directorios en sistemas operativos GNU-Linux"
+    },
+    {
+      "course_id": "basic-move",
+      "title": "Moverse entre directorios",
+      "description": "Moverse entre distintos directorios por medio de path relativo y absolutos"
     }
   ]
 }
