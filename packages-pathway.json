@@ -12,6 +12,11 @@
       "course_id": "packages-apt",
       "title": "Gestor de paquetes apt",
       "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian"
+    },
+    {
+      "course_id": "packages-rpm",
+      "title": "Gestor de paquetes RPM",
+      "description": "Administración de paquetes rpm"
     }
   ]
 }

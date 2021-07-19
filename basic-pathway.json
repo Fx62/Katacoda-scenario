@@ -22,6 +22,11 @@
       "course_id": "basic-move",
       "title": "Moverse entre directorios",
       "description": "Moverse entre distintos directorios por medio de path relativo y absolutos"
+    },
+    {
+      "course_id": "basic-links",
+      "title": "Hard links y Soft links",
+      "description": "Modos de uso de hard links y soft links"
     }
   ]
 }
