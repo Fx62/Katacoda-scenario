@@ -1,0 +1,26 @@
+{
+  "title": "Copiar y mover",
+  "description": "Copiar y mover archivos y directorios",
+  "difficulty": "Beginner",
+  "time": "2 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
