@@ -7,6 +7,11 @@
       "course_id": "basic-directories",
       "title": "Gestión de Directorios",
       "description": "Utilización de directorios en tareas cotidianas"
+    },
+    {
+      "course_id": "basic-files",
+      "title": "Gestión de archivos",
+      "description": "Uso de herramientas para la gestión de archivos de texto plano"
     }
   ]
 }
