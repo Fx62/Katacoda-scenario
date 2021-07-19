@@ -17,6 +17,11 @@
       "course_id": "packages-rpm",
       "title": "Gestor de paquetes RPM",
       "description": "Administración de paquetes rpm"
+    },
+    {
+      "course_id": "packages-dpkg",
+      "title": "Gestor de paquetes deb",
+      "description": "Administrar paquetes .deb con dpkg"
     }
   ]
 }
