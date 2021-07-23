@@ -2,5 +2,26 @@
   "title_id": "process",
   "title": "Procesos",
   "description": "Gestión de procesos y tareas programadas",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "process-signals",
+      "title": "Señales",
+      "description": "Enviar señales a procesos para su ejecución o detención"
+    },
+    {
+      "course_id": "process-process",
+      "title": "Procesos",
+      "description": "Monitoreo de procesos"
+    },
+    {
+      "course_id": "process-execution",
+      "title": "Plano de ejecución",
+      "description": "Procesos en primero y segundo plano"
+    },
+    {
+      "course_id": "process-sessions",
+      "title": "Herramientas de sesiones",
+      "description": "Gestión de sesiones por medio de herramientas adicionales"
+    }
+  ]
 }

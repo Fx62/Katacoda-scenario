@@ -2,5 +2,26 @@
   "title_id": "security",
   "title": "Seguridad",
   "description": "Firewalld y SELinux",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "security-firewalld",
+      "title": "Firewalld",
+      "description": "Administración de firewalld"
+    },
+    {
+      "course_id": "security-ufw",
+      "title": "UFW",
+      "description": "Administración de firewall ufw"
+    },
+    {
+      "course_id": "security-selinux",
+      "title": "SELinux",
+      "description": "Gestión de estados y etiquetas de SELinux"
+    },
+    {
+      "course_id": "security-certificates",
+      "title": "Certificados",
+      "description": "Creación de configuración de certificados SSL"
+    }
+  ]
 }

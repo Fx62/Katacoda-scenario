@@ -2,5 +2,26 @@
   "title_id": "scripting",
   "title": "Scripting",
   "description": "Creación de scripts para automatizar tareas",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "scripting-execution",
+      "title": "Ejecución",
+      "description": "Creación y ejecución de scripts"
+    },
+    {
+      "course_id": "scripting-datatypes",
+      "title": "Tipos de datos",
+      "description": "Tipos y estructuras de datos"
+    },
+    {
+      "course_id": "scripting-conditions",
+      "title": "Condiciones",
+      "description": "Condicionales para la ejecución de código"
+    },
+    {
+      "course_id": "scripting-loops",
+      "title": "Boocles",
+      "description": "Tipos de boocles con condicionales"
+    }
+  ]
 }

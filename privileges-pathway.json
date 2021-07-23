@@ -2,5 +2,26 @@
   "title_id": "privileges",
   "title": "Usuario y grupos",
   "description": "Gestión de usuario, grupos y permisos",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "privileges-groups",
+      "title": "Grupos",
+      "description": "Administración de grupos del sistema operativo"
+    },
+    {
+      "course_id": "privileges-users",
+      "title": "Usuarios",
+      "description": "Gestión de usuarios del sistema operativo"
+    },
+    {
+      "course_id": "privileges-owner",
+      "title": "Propietarios",
+      "description": "Cambio de propietarios en archivos y directorios"
+    },
+    {
+      "course_id": "privileges-permissions",
+      "title": "Permisos",
+      "description": "Administración de permisos en archivos y directorios"
+    }
+  ]
 }

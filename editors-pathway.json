@@ -2,5 +2,16 @@
   "title_id": "editors",
   "title": "Editores de Texto",
   "description": "Editores de texto CLI",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "editors-nano",
+      "title": "Nano",
+      "description": "Editor de texto nano"
+    },
+    {
+      "course_id": "editors-vi",
+      "title": "Vi",
+      "description": "Editor de texto vi"
+    }
+  ]
 }

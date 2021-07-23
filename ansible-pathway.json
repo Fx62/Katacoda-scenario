@@ -2,5 +2,21 @@
   "title_id": "ansible",
   "title": "Ansible",
   "description": "Automatización de tareas por medio de ansible",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "ansible-definitions",
+      "title": "Ansible",
+      "description": "Definiciones y terminos de ansible"
+    },
+    {
+      "course_id": "ansible-preparation",
+      "title": "Preparación",
+      "description": "Preparación de ansible"
+    },
+    {
+      "course_id": "ansible-adhocks",
+      "title": "Adhocks",
+      "description": "Ejecución de Adhocks"
+    }
+  ]
 }

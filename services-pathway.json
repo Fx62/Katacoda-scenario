@@ -2,5 +2,16 @@
   "title_id": "services",
   "title": "Servicios",
   "description": "Administración de servicios",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "services-systemv",
+      "title": "System V",
+      "description": "Gestión de servicios con System V"
+    },
+    {
+      "course_id": "services-systemctl",
+      "title": "Systemctl",
+      "description": "Gestión de servicios con Systemctl"
+    }
+  ]
 }
