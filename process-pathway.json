@@ -22,6 +22,16 @@
       "course_id": "process-sessions",
       "title": "Herramientas de sesiones",
       "description": "Gestión de sesiones por medio de herramientas adicionales"
+    },
+    {
+      "course_id": "process-at",
+      "title": "AT",
+      "description": "Tareas programadas utilizando atd"
+    },
+    {
+      "course_id": "process-cron",
+      "title": "Crontab",
+      "description": "Tareas programadas utilizando crontabs"
     }
   ]
 }

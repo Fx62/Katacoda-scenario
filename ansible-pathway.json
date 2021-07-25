@@ -17,6 +17,36 @@
       "course_id": "ansible-adhocks",
       "title": "Adhocks",
       "description": "Ejecución de Adhocks"
+    },
+    {
+      "course_id": "ansible-playbooks1",
+      "title": "Playbooks",
+      "description": "Creación de playbooks"
+    },
+    {
+      "course_id": "ansible-loops",
+      "title": "Ciclos",
+      "description": "Ciclos en ejecución de tareas"
+    },
+    {
+      "course_id": "ansible-when",
+      "title": "Condiciones",
+      "description": "Ejecución de tareas por medio de condiciones"
+    },
+    {
+      "course_id": "ansible-handlers",
+      "title": "Handlers",
+      "description": "Ejecución de tareas por medio de handlers"
+    },
+    {
+      "course_id": "ansible-variables",
+      "title": "Variables",
+      "description": "Uso de variables en playbooks"
+    },
+    {
+      "course_id": "ansible-playbooks2",
+      "title": "Playbook ",
+      "description": "Creación de playbook con varios modulos, variables, handlers y condiciones"
     }
   ]
 }

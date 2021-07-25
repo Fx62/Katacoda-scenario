@@ -1,0 +1,34 @@
+{
+  "title": "Handlers",
+  "description": "Ejecución de tareas por medio de handlers",
+  "difficulty": "Intermediate",
+  "time": "3 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ansible-centos"
+  }
+}

@@ -1,5 +1,26 @@
 {
   "title": "Contenedores",
   "description": "Gestión de contenedores",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "containers-definitions",
+      "title": "Definiciones",
+      "description": "Definiciones sobre contenedores "
+    },
+    {
+      "course_id": "containers-execution",
+      "title": "Ejecución de contenedores",
+      "description": "Ejecución de contenedores por medio de distintas instrucciones"
+    },
+    {
+      "course_id": "containers-images",
+      "title": "Modificación de imágenes",
+      "description": "Modificar imagenes en ejecución"
+    },
+    {
+      "course_id": "containers-dockerfile",
+      "title": "Dockerfile",
+      "description": "Creación de imágenes por medio de dockerfiles"
+    }
+  ]
 }
