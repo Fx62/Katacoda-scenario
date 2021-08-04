@@ -4,6 +4,11 @@
   "description": "Utilización de comando basicos en tareas cotidianas",
   "courses": [
     {
+      "course_id": "basic-copy",
+      "title": "Copiar archivos",
+      "description": "Copiar, mover y renombrar archivos"
+    },
+    {
       "course_id": "basic-directories",
       "title": "Gestión de Directorios",
       "description": "Utilización de directorios en tareas cotidianas"
