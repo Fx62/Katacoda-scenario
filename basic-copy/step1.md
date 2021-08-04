@@ -10,7 +10,7 @@ O también
 
 `cp /etc/fstab .`{{execute}}
 
-#### NOTA: si se utiliza un nombre de archivo destino que ya existe, se sobrescribe
+### NOTA: si se utiliza un nombre de archivo destino que ya existe, se sobrescribe
 
 Para mostrar los archivos copiados, se ejecuta
 
@@ -18,7 +18,7 @@ Para mostrar los archivos copiados, se ejecuta
 
 También es posible copiar varios archivos, para ello se debe de tomar en cuenta que el último argumento debe de ser un directorio
 
-`cp /etc/fstab /etc/motd /tmp`{{execute}}
+`cp /etc/fstab /etc/issue /tmp`{{execute}}
 
 Si lo que se necesita copiar es un directorio, se debe de agregar la opción -r para copiar el directorio y el contenido
 
