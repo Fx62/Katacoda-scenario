@@ -2,7 +2,7 @@ Explicación
 
 ## definición
 
-[imagen](https://www.muycomputer.com/wp-content/uploads/2021/04/nier.jpg)
+![imagen](https://www.muycomputer.com/wp-content/uploads/2021/04/nier.jpg)
 
 comando
 
