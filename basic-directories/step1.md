@@ -1,11 +1,23 @@
-Explicación
+Crear un directorio llamado test
 
-## definición
+`mkdir test`{{execute}}
 
-![imagen](https://www.muycomputer.com/wp-content/uploads/2021/04/nier.jpg)
+Este comando puede ser utilizado con n cantidad de argumentos para generar varios directorios
 
-comando
+`mkdir directorio1 directorio2 directorio3`{{execute}}
 
-`ls`{{execute}}
+Cuando se intenta crear un directorio dentro de otro directorio que aún no existe, el comando va fallar
 
-`pwd`{{execute}}
+`mkdir curso/directorio/prueba`{{execute}}
+
+Para que el comando anterior funcione, es necesario colocar la opción -p
+
+`mkdir -p curso/directorio/prueba`{{execute}}
+
+Para borrar un directorio vacío
+
+`rmdir test`{{execute}}
+
+Cuando el directorio no está vacío, el comando rmdir no realizará la acción, para ello utilizar el comando rm
+
+`rm -r curso`{{execute}}
