@@ -1,1 +1,1 @@
-Los directorios son ficheros encargados de almacenar todo tipos de archivos para ubicarlos y ordenarlos para cumplir con estandares según está establecido en cada distribución
+Los directorios son ficheros encargados de almacenar todo tipos de archivos para ubicarlos y ordenarlos para cumplir con estándares según está establecido en cada distribución

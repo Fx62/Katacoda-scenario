@@ -1,0 +1,1 @@
+El gestionar archivos de texto plano es una actividad muy común de realizar, como el mostrar contenido de los mismo sin editar, crear o inclusive el eliminar
