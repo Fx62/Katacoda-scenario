@@ -11,7 +11,9 @@ Si se necesitan mostrar las primeras 10 líneas de un archivo
 `head /etc/mke2fs.conf`{{execute}}
 
 Y para mostrar las últimas 10 líneas de un archivo 
+
 `tail /etc/mke2fs.conf`{{execute}}
 
 Tanto head y tail muestran por defecto 10 líneas, pero con la opción -n se puede modificar la cantidad de líneas a mostrar
+
 `head -n 5 /etc/mke2fs.conf`{{execute}}
