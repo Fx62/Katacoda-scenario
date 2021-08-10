@@ -12,11 +12,11 @@ Con el comando touch los archivos que se generan, se encuentran vacíos, tambié
 
 Por medio de > se crea un archivo si no existe, mientras que si ya existe el archivo y tiene contenido, se sobrescribe la información
 
-`echo ‘Hola’ > archivo`{{execute}}
+`echo 'Hola' > archivo`{{execute}}
 
 Por medio de >> se crea un archivo si no existe, mientras que si ya existe el archivo y tiene contenido, se agrega la información al final del archivo
 
-`echo ‘hola’ >> archivo`{{execute}}
+`echo 'hola' >> archivo`{{execute}}
 
 Cuando se necesita borrar un archivo se utiliza rm con el nombre del archivo a borrar
 
