@@ -3,4 +3,4 @@ En la jerarquía de directorios / es la raíz a partir de la cual se derivan el 
 
 Diagrama de jerarquía de sistema de archivos
 
-![HFD](../Images/basic/hfs.png)
+![HFD](https://raw.githubusercontent.com/Fx62/Katacoda-scenario/main/Images/basic/hfs.png)
