@@ -1,0 +1,1 @@
+Es necesario conocer la estructura de la jerarquía estándar en sistemas de archivos (HFS), para ubicar y encontrar archivos en sistemas operativos GNU-Linux, siendo muy similar a la jerarquía de sistemas operativos Unix

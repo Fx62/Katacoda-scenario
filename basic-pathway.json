@@ -32,6 +32,11 @@
       "course_id": "basic-links",
       "title": "Hard links y Soft links",
       "description": "Modos de uso de hard links y soft links"
+    },
+    {
+      "course_id": "basic-hierarchy",
+      "title": "Jerarquía estándar de sistemas de archivos",
+      "description": "Conocer los directorios que forman parte de los sistemas de archivos GNU-Linux"
     }
   ]
 }
