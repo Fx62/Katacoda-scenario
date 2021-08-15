@@ -1,1 +1,1 @@
-<a onclick="test()" href="http://147.182.201.108:8080/finish/process-cron" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fx-learning.mgait.services:8443/finish/process-cron" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

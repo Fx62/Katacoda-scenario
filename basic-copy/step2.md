@@ -14,4 +14,8 @@ La acción de renombrar también se puede realizar con el comando mv, porque en 
 
 También es posible mover varios archivos y directorios a un solo destino, para ello es necesario agregar primero el nombre de todos los archivo y directorio, dejando por último el nombre del directorio de destino
 
-`mv Archivo /tmp/socket /tmp/socketurl`{{execute}}
+`mv Archivo /tmp/socket /tmp/socketurl /opt/`{{execute}}
+
+Listar contenido de /opt
+
+`ls /opt`{{execute}}
