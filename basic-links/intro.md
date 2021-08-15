@@ -1,0 +1,1 @@
+Los hard links y soft links son archivos que se asocian a otros por medio de los inodos de los sistema de archivos

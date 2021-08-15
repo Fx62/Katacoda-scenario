@@ -17,7 +17,7 @@ Retroceder de directorio por medio de ruta relativa hacia /etc/dpkg/
 `cd ..`{{execute}}
 
 Existen caracteres especiales que representan la ubicación de un directorio de una forma más sencilla que utilizar una ruta absoluta
-`.     Representa el directorio actual`
-`..     Representa el directorio superior`
-`~     Se utiliza para hacer referencia al home directory del usuario que ejecuta el comando`
-`-     Es utilizado para regresar al directorio donde estaba la sesión antes de moverse al directorio actual`
+`.     Representa el directorio actual
+..     Representa el directorio superior
+~     Se utiliza para hacer referencia al home directory del usuario que ejecuta el comando
+-     Es utilizado para regresar al directorio donde estaba la sesión antes de moverse al directorio actual`
