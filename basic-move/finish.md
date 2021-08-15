@@ -7,4 +7,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 <li> Moverse entre distintos niveles de los directorios por medio de rutas absolutas y relativas
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services:8443/finish/basic-move" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fx-learning.mgait.services:8443/api/finish/basic-move" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

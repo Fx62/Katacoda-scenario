@@ -1,1 +1,1 @@
-<a onclick="test()" href="https://fx-learning.mgait.services:8443/finish/security-firewalld" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fx-learning.mgait.services:8443/api/finish/security-firewalld" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
