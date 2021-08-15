@@ -5,7 +5,7 @@
   "courses": [
     {
       "course_id": "basic-copy",
-      "title": "Copiar archivos",
+      "title": "Copiar y mover",
       "description": "Copiar, mover y renombrar archivos"
     },
     {
@@ -17,11 +17,6 @@
       "course_id": "basic-files",
       "title": "Gestión de archivos",
       "description": "Uso de herramientas para la gestión de archivos de texto plano"
-    },
-    {
-      "course_id": "basic-sortfiles",
-      "title": "Jerarquía de sistemas de archivos",
-      "description": "Orden y ubicación de directorios en sistemas operativos GNU-Linux"
     },
     {
       "course_id": "basic-move",
