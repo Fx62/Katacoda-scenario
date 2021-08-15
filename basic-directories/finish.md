@@ -6,4 +6,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 <li> Borrar directorio
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services:8443/api/finish/basic-directories" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fx-learning.mgait.services/finish/basic-directories" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

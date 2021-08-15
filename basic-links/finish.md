@@ -7,4 +7,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 <li> Relación de soft link hacia archivos
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services:8443/api/finish/basic-links" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fx-learning.mgait.services/finish/basic-links" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
