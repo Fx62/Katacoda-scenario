@@ -1,0 +1,1 @@
+La tarea de administrar paquetes en un sistema operativo puede ser muy distinta, todo depende del gestor de paquetes que el sistema operativo utilice, aunque las acciones son las mismas en cada uno, como listar, buscar, instalar, actualizar, desinstalar, limpiar caché, entre otras tareas.
