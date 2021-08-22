@@ -1,0 +1,1 @@
+Apt (advanced packaging tool) es un gestor de dependencias  para paquetes DEB, el cual es un proyecto desarrollado por Debian, siendo utilizado por todas las distribuciones basadas en Debian.
