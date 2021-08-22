@@ -3,6 +3,7 @@ Por medio de la opción `install` se pueden instalar uno o varios paquetes separ
 `apt install screen git bash-completion`{{execute}}
 
 El desinstalar también se puede hacer al especificar uno o varios paquetes separados por un espacio
+
 `apt remove git`{{execute}}
 
 Al utilizar la opción remove, se desinstalan solamente los paquetes principales que se han especificado, pero las dependencias aún quedan instaladas en el sistema operativo, estas dependencias si no son utilizadas por otro paquetes, estos se conocen como paquetes huérfanos, los cuales también es posible desinstalar
