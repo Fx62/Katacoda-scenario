@@ -6,6 +6,6 @@ En el apartado anterior, se mostraron las siguientes definiciones:
 <li> Dependencias
 <li> Gestor de dependencias
 <li> Repositorios
-<li> Mirros
+<li> Mirrors
 
 <a onclick="test()" href="https://fx-learning.mgait.services/finish/packages-repositories" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
