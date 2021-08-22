@@ -2,7 +2,7 @@
   "title": "Gestor de paquetes apt",
   "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "10 minutos",
   "details": {
     "steps": [
       {
@@ -16,7 +16,7 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md"
