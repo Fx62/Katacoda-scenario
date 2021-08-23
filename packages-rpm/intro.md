@@ -1,0 +1,1 @@
+Un gestor de paquetes es un programa a nivel del sistema operativo, el cual facilita el gestionar paquetes que no se encuentran en repositorios oficiales.
