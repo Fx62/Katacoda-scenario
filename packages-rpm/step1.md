@@ -19,7 +19,7 @@ Es posible listar todos los archivos de un paquete instalado, en el siguiente ej
 
 En caso se necesita desinstalar un paquete, se utiliza la opción `-e` sin especificar la extensión `.rpm`, siendo en el siguiente ejemplo `epel-release` el nombre del paquete a desinstalar
 
-`rpm -e epel`{{execute}}
+`rpm -e epel-release`{{execute}}
 
 ## NOTA:
 Los paquetes .rpm también pueden ser instalados por medio de gestores de dependencias y de esta forma si el paquete necesita de dependencias, estás serán buscadas desde repositorios oficiales, y si en realidad no se encuentran en dichos repositorios, es necesario instalar cada paquete directamente por el gestor `rpm`.
