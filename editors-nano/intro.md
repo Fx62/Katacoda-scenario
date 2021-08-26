@@ -1,0 +1,1 @@
+GNU nano es un editor de texto libre que fue diseñado como reemplazo del editor de texto Pico, en muchos sistemas operativo el comando `pico` es un alias hacia el comando `nano`
