@@ -1,0 +1,1 @@
+Vi es un increíble editor de texto que carga todo el contenido de los archivos en memoria y gestiona los archivos por medio de 3 modos: modo comando, modo inserción o texto  y modo línea o ex.
