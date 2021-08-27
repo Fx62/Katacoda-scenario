@@ -1,0 +1,1 @@
+Los grupos son colecciones de usuarios, la intención de pertenecer varios usuarios a un mismo grupo es el compartir los mismos permisos sin tener que ser asignados a cada cuenta de usuario de forma individual.
