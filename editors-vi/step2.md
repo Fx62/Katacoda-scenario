@@ -1,5 +1,5 @@
 ## Modo comandos
-Al presionar distintas teclas, se ejecutan comandos en el editor de texto
+Al presionar distintas teclas, se ejecutan comandos en el editor de texto, para cerciorarse que se encuentra el modo de comandos activo, se debe de presionar `Esc`  antes de ingresar cualquier comando
 
 ### Comandos para moverse en el archivo
 <table style="width:100%">

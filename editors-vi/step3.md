@@ -1,4 +1,4 @@
-### Borrar text
+### Borrar texto
 <table style="width:100%">
   <tr>
     <td><b>Comando</b></td>

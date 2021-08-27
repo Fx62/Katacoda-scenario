@@ -1,4 +1,6 @@
 ## Modo línea o ex
+Desde el modo insert, se presiona `Esc` para utilizar el modo línea o ex
+
 ### Buscar texto y salir del editor
 <table style="width:100%">
   <tr>
