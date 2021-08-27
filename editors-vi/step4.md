@@ -1,31 +1,35 @@
-### Cambiar de modo comando a modo texto
+### Copiar y pegar
 <table style="width:100%">
   <tr>
     <td><b>Comando</b></td>
     <td><b>Acción</b></td>
   </tr>
   <tr>
-    <td>i</td>
-    <td>Inserta texto a la izquierda del cursor</td>
+    <td>v</td>
+    <td>Después se mueve con las flechas del teclado</td>
   </tr>
   <tr>
-    <td>a</td>
-    <td>Inserta texto a la derecha del cursor</td>
+    <td>V</td>
+    <td>Se marca toda la línea</td>
   </tr>
   <tr>
-    <td>A</td>
-    <td>Inserta texto al final de la línea donde el cursor se encuentra</td>
+    <td>`Ctrl` + `v`</td>
+    <td>Marca por bloque al moverse con las flechas del teclado</td>
   </tr>
   <tr>
-    <td>I</td>
-    <td>Inserta texto al comienzo de la línea donde se encuentra el cursor</td>
+    <td>y</td>
+    <td>Se copia el texto marcado</td>
   </tr>
   <tr>
-    <td>o</td>
-    <td>Crea una nueva línea vacía debajo de la línea actual</td>
+    <td>yy</td>
+    <td>Copia toda la línea</td>
   </tr>
   <tr>
-    <td>O</td>
-    <td>Crea una nueva línea vacía arriba de la línea actual</td>
+    <td>p</td>
+    <td>Pega el texto después del cursor</td>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td>Pega el texto antes del cursor</td>
   </tr>
 </table>
