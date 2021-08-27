@@ -9,5 +9,5 @@ Para salir del archivo y guardar los cambios estando en modo comandos, se puede 
 ### Nota:
 El editor de texto `vi` requiere del uso de short cuts para la mayoría de sus acciones, y al ser case sensitive las acciones que realiza con las mismas teclas al ser mayúsculas y minúsculas, el resultado es distinto.
 
-### Nota:
+## VIM
 Existe una versión mejorada de `vi`, la cual se llama `vim`, su nombre es a partir de `Vi iMproved`, el cuál cuenta con todas las acciones de `vi` y cuenta con soporte a tabs, multi windows, buffer, macros, ayuda en línea, history, soporte a distintos unicodes, soporte para el uso de mouse, soporte para instalar distintos plugins y entre otras mejoras.
