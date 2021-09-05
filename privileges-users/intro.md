@@ -1,0 +1,1 @@
+Un usuario es el que se identifica al sistema para hacer uso del mismo, el usuario puede pertenecer a uno o varios grupos y a su vez puede contar con varios roles y permisos sobre el sistema y archivos.
