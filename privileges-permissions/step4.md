@@ -13,4 +13,4 @@ Los permisos se van sumando tanto para usuario, grupos y otros, de forma que los
 
 En la siguiente imagen, se muestra la forma en que se estructura el número en base octal para aplicar los permisos tanto a archivos como a directorios
 
-![HFD](https://raw.githubusercontent.com/Fx62/Katacoda-scenario/main/Images/privileges/rwx.png)
+![HFD](https://raw.githubusercontent.com/Fx62/Katacoda-scenario/main/Images/privileges/octal.png)
