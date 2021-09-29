@@ -1,4 +1,4 @@
-Los permisos de ficheros, se muestran con
+Los permisos de ficheros, se muestran con `ls -l`, seguido del nombre del archivo o directorio
 
 `ls -l /usr/bin`{{execute}}
 
