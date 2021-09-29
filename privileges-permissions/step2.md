@@ -1,4 +1,5 @@
 En la siguiente tabla, se muestra el tipo de archivo según el primer carácter al listar los permisos de archivos
+
 Tipo | Abreviatura | Descripción
 ---- | --- | ---
 Normal | - | Archivo normal
