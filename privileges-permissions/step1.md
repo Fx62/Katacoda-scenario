@@ -20,4 +20,4 @@ Cada vez que aparece el carácter `-`, es porque el usuario, el grupo u otros no
 
 
 #### NOTA
-El primer carácter de la primera columna puede ser reemplazado según el tipo de archivo, por lo cual si es representado por un `-`, no es por falta de permisos sino por el tipo de archivo
+El primer carácter de la primera columna puede ser reemplazado según el tipo de archivo, por lo cual si es representado por un carácter `-`, no es por falta de permisos sino por el tipo de archivo
