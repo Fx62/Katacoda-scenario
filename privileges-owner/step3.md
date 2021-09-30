@@ -4,11 +4,11 @@ Utilizando el comando `su` seguido por un carácter `-` separado por espacio, se
 
 Agregar la salida el comando `date` al archivo /file
 
-`date > /fille`{{execute}}
+`date > /file`{{execute}}
 
 Con `cat` se lee el contenido del archivo, ambas acciones pueden ser realizadas por `usuario1`, ya que es el dueño del archivo
 
-`cat /fille`{{execute}}
+`cat /file`{{execute}}
 
 Salir de la sesión de `usuario1`
 
