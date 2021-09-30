@@ -7,7 +7,7 @@ Para utilizar `System V` en el ambiente, primero se requiere instalar un paquete
 
 El servicio de `apache` se llama `httpd` y se inicia con el comando service
 
-`service http start`{{execute}}
+`service httpd start`{{execute}}
 
 Generar nuevo archivo `index.html` en el directorio `/var/www/html` con algún contenido
 
