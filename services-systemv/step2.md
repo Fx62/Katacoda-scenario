@@ -8,7 +8,7 @@ Al volver a revisar el servicio web, no se obtiene la respuesta del archivo inde
 
 Con la opción `status` se puede determinar el estado del servicio, si se encuentra detenido o en ejecución
 
-`service http status`{{execute}}
+`service httpd status`{{execute}}
 
 Cuando el equipo enciende, el servicio no inicia de forma automatica a menos que se habilite, y para ello se utiliza el comando `chkconfig` con el nombre del servicio y la opción `on`
 
