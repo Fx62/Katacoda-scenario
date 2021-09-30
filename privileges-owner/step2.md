@@ -4,7 +4,7 @@ Con  la opción `-l` del comando `ls`, se muestran el usuario al que pertenece d
 
 Con el siguiente comando se cambia el usuario propietario del archivo a `usuario1`
 
-`chown usuario1 /file`
+`chown usuario1 /file`{{execute}}
 
 Verificar usuario propietario del archivo `/file`
 
