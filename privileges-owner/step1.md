@@ -1,14 +1,14 @@
 Agregar usuario llamado `user1`
 
-`useradd -m user1`{{execute}}
+`useradd -m usuario1`{{execute}}
 
 Agregar usuario llamado `user2`
 
-`useradd -m user2`{{execute}}
+`useradd -m usuario2`{{execute}}
 
 Agregar usuario llamado `user3`
 
-`useradd -m user3`{{execute}}
+`useradd -m usuario3`{{execute}}
 
 Crear archivo `/file`
 
