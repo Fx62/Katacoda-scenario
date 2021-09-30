@@ -3,7 +3,7 @@ No todos los paquetes que se instalan en el sistema operativo cuentan con servic
 
 Para utilizar `System V` en el ambiente, primero se requiere instalar un paquete que provea de un servicio, para ello se instalará `apache`
 
-`yum install httpd`{{execute}}
+`yum install -y httpd`{{execute}}
 
 El servicio de `apache` se llama `httpd` y se inicia con el comando service
 
