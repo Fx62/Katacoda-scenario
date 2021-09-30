@@ -1,0 +1,1 @@
+Debido a que los permisos son las acciones que un usuario o grupo puede realizar sobre archivos y directorios, es necesario conocer el cambiar de usuario y grupos propietarios para tener un mayor control.
