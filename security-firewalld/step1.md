@@ -1,6 +1,6 @@
 En caso `firewalld` no se encuentra instalado, se instala desde repositorios oficiales
 
-`yum install -y firewalld`
+`yum install -y firewalld`{{execute}}
 
 Luego se requiere el habilitar e iniciar servicio de `firewalld`
 
