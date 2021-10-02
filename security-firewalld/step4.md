@@ -8,7 +8,7 @@ Si se necesita trasladar las reglas habilitadas en tiempo real a que sean de for
 
 Si se vuelve a recargar las configuraciones del firewall, no se perderá ninguna configuración habilitada antes del reinicio del servicio
 
-`firewalld-cmd --reload`{{execute}}
+`firewall-cmd --reload`{{execute}}
 
 Verificar nuevamente estado del firewall
 
