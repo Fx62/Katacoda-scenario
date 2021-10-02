@@ -1,6 +1,6 @@
 Recargar configuraciones permanentes del firewall
 
-`firewalld-cmd --reload`{{execute}}
+`firewall-cmd --reload`{{execute}}
 
 #### Nota
 Toda configuración que es aplicada sin la opción `--permanent`, es aplicada en tiempo real, aunque al recargar la configuración se pierden dichas reglas
