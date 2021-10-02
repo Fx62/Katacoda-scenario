@@ -8,7 +8,7 @@ Para exponer un servicio se va a instalar un `nginx` como servidor web
 
 Habilitar e iniciar servicio de `nginx`
 
-`systemctl enable --now`{{execute}}
+`systemctl enable --now nginx`{{execute}}
 
 Reemplazar contenido de archivo `index.html`
 
