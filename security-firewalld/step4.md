@@ -4,9 +4,11 @@ Verificar reglas de configuración actual
 
 Si se necesita trasladar las reglas habilitadas en tiempo real a que sean de forma permanente, se utiliza la opción `--runtime-to-permanent`
 
+`firewall-cmd --runtime-to-permanent`{{execute}}
+
 Si se vuelve a recargar las configuraciones del firewall, no se perderá ninguna configuración habilitada antes del reinicio del servicio
 
-`firewalld-cmd --reload`
+`firewalld-cmd --reload`{{execute}}
 
 Verificar nuevamente estado del firewall
 
