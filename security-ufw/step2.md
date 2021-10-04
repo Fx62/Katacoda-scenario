@@ -1,6 +1,6 @@
 Verificar servicios que pueden agregarse al firewall
 
-`less /etc/servicess`{{execute}}
+`less /etc/services`{{execute}}
 
 Habilitar servicio `http` en firewall
 
