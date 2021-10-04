@@ -1,0 +1,1 @@
+`Uncomplicated Firewall` es un cortafuegos diseñado para ser de fácil uso desarrollado por `Ubuntu`. Utiliza la línea de comandos para configurar las `iptables` usando un pequeño número de comandos simples. 
