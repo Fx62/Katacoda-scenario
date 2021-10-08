@@ -10,7 +10,7 @@ Firmar `CSR` a partir del certificado y llave del root CA, este paso requiere el
 El comando anterior genera un archivo llamado `server.crt` el cual es el certificado que se debe de enviar al cliente, junto a la cadena de quien firmó el certificado, en este ejemplo la cadena es lo mismo al certificado llamado `rootCA.crt`
 
 ##### Tareas a realizar en cliente
-Cada vez que se genera un `CSR`, también se genera una llave, cuando es primer certificado es necesario generar ambos archivos, luego se envía el `CSR` al `CA` y este devuelve el certificado y la cadena, en caso sea una renovación, ya no es necesario generar un `CSR, sino que únicamente se vuelve a enviar el mismo `CSR`
+Cada vez que se genera un `CSR`, también se genera una llave, cuando es primer certificado es necesario generar ambos archivos, luego se envía el `CSR` al `CA` y este devuelve el certificado y la cadena, en caso sea una renovación, ya no es necesario generar un `CSR`, sino que únicamente se vuelve a enviar el mismo `CSR`
 
 Verificar datos del certificado firmado por el CA
 
