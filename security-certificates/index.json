@@ -2,7 +2,7 @@
   "title": "Certificados",
   "description": "Creación de configuración de certificados SSL",
   "difficulty": "Advanced",
-  "time": "10 minutos",
+  "time": "20 minutos",
   "details": {
     "steps": [
       {
@@ -34,6 +34,9 @@
       },
       {
         "text": "step10.md"
+      },
+      {
+        "text": "step11.md"
       }
     ],
     "intro": {
