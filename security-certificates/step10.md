@@ -1,27 +1,23 @@
-Por último solamente es necesario reiniciar el servicio de `apache` para cargar los nuevos certificados
+Verificar que el certificado y la cadena hagan coincidadn
 
-`systemctl restart httpd`{{execute}}
+`openssl verify -CAfile rootCA.crt server.crt`{{execute}}
 
-Debido a que el `Common name` del certificado es `fx-learning.mgait.services`, se agregará un registro de resolución de nombres local al archivo `/etc/hosts` para que se pueda resolver dicho nombre a `localhost`
+#### Nota
+Para configurar dichos certificados en el servidor `apache`, se pueden dejar tanto el certificado, llave y cadena en cualquier directorio con cualquier nombre, pero ello conlleva el modificar los valores de las variables vistas en el paso 5 del presente escenario
 
-`echo "127.0.0.1   fx-learning.mgait.services" >> /etc/hosts`{{execute}}
+Para evitar el modificar dichas variables, se reemplazará el certificado anterior por el nuevo certificado generado, presionando `y` a la confirmación para sobreescribir el archivo actual
 
-Al consumir el servicio de `https`, nuevamente se muestra que el certificado fue firmado por una CA desconocido
+`cp server.crt /etc/pki/tls/certs/localhost.crt`{{execute}}
 
-`curl https://fx-learning.mgait.services`{{execute}}
 
-Para instalar el  certificado del CA en el servidor, se debe de copiar el certificado `rootCA.crt` al siguiente directorio
+También se debe de copiar la llave, presionando `y` a la confirmación para sobreescribir el archivo actual
 
-`cp rootCA.crt /etc/pki/ca-trust/source/anchors/`{{execute}}
+`cp server.key /etc/pki/tls/private/localhost.key`{{execute}}
 
-Luego el actualizar la base de certificados CA conococidos en el sistema operativo
+La cadena se debe de incluir también en la siguiente ubicación
 
-`update-ca-trust`{{execute}}
+`cp rootCA.crt /etc/pki/tls/certs/server-chain.crt`{{execute}}
 
-Al volver a consumir el servicio `https`, ahora no mostrará la advertencia del certificado, esto debido a que el certificado del CA si es confiable para el servidor
+Debido a que la variable `SSLCertificateChainFile` se encuentra comentada, se debe de descomentar en el archivo `/etc/httpd/conf.d/ssl.conf`
 
-`curl https://fx-learning.mgait.services`{{execute}}
-
-Verificar que el servicio de apache cuente con el certificado que se generó
-
-`openssl s_client -connect fx-learning.mait.services:443 | openssl x509 -text -noout |head -n11`{{execute}}
+`sed -i 's/^#SSLCertificateChainFile/SSLCertificateChainFile/' /etc/httpd/conf.d/ssl.conf`{{execute}}
