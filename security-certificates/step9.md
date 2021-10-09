@@ -1,23 +1,17 @@
-Verificar que el certificado y la cadena hagan coincidadn
+#### Nota
+Cuando se genera un `CSR` y `llave`, se envía el `CSR` a quien lo firmará para generar un nuevo certificado, pero la `llave` no se debe de compartir ante ninguna situación, esto es debido a los riesgos de seguridad que ello implica, porque cualquiera con la llave puede suplantar la identidad del sitio
 
-`openssl verify -CAfile rootCA.crt server.crt`{{execute}}
+##### Tareas a realizar en root CA
+Firmar `CSR` a partir del certificado y llave del root CA, este paso requiere el ingreso de la contraseña utilizada para la generación de la llave del root CA
+
+`openssl x509 -req -in server.csr -CA rootCA.crt -CAkey rootCA.key -days 365 -CAcreateserial -out server.crt`{{execute}}
 
 #### Nota
-Para configurar dichos certificados en el servidor `apache`, se pueden dejar tanto el certificado, llave y cadena en cualquier directorio con cualquier nombre, pero ello conlleva el modificar los valores de las variables vistas en el paso 5 del presente escenario
+El comando anterior genera un archivo llamado `server.crt` el cual es el certificado que se debe de enviar al cliente, junto a la cadena de quien firmó el certificado, en este ejemplo la cadena es lo mismo al certificado llamado `rootCA.crt`
 
-Para evitar el modificar dichas variables, se reemplazará el certificado anterior por el nuevo certificado generado
+##### Tareas a realizar en cliente
+Cada vez que se genera un `CSR`, también se genera una llave, cuando es primer certificado es necesario generar ambos archivos, luego se envía el `CSR` al `CA` y este devuelve el certificado y la cadena, en caso sea una renovación, ya no es necesario generar un `CSR`, sino que únicamente se vuelve a enviar el mismo `CSR`
 
-`cp server.crt /etc/pki/tls/certs/localhost.crt`{{execute}}
+Verificar datos del certificado firmado por el CA
 
-
-También se debe de copiar la llave
-
-`cp server.key /etc/pki/tls/private/localhost.key`{{execute}}
-
-La cadena se debe de incluir también en la siguiente ubicación
-
-`cp rootCA.crt /etc/pki/tls/certs/server-chain.crt`{{execute}}
-
-Debido a que la variable `SSLCertificateChainFile` se encuentra comentada, se debe de descomentar en el archivo `/etc/httpd/conf.d/ssl.conf`
-
-`sed -i 's/^#SSLCertificateChainFile/SSLCertificateChainFile/' /etc/httpd/conf.d/ssl.conf`{{execute}}
+`openssl x509 -in server.crt -text -noout | head -n11`{{execute}}
