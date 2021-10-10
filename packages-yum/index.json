@@ -6,19 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "¿Qué es Yum?",
         "text": "step1.md"
       },
       {
-        "title": "Actualizar paquetes y sistema operativo",
         "text": "step2.md"
       },
       {
-        "title": "Instalar y desinstalar paquetes",
         "text": "step3.md"
       },
       {
-        "title": "Agregar repositorios adicionales",
         "text": "step4.md"
       }
     ],
