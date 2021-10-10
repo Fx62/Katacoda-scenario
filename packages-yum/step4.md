@@ -1,17 +1,21 @@
-## Instalar repositorios adicionales
-Es necesario agregar repositorios adicionales, cuando se requiere instalar paquetes que no estan disponibles desde los repositorios disponibles desde la instalación.
+#### Grupos
+En `yum` no solamente se pueden instalar paquetes de forma independientes, existen también grupos, los cuales son equivalentes al listado de todos los paquetes necesarios, con la intención de proveer todas las herramientas necesarias, las instrucciones son muy similares a las vistas en los apartados anteriores, siendo necesario solamente agregar la palabra `group` en las instrucciones.
 
-### Epel
-Epel es un repositorio publico mantenido por el Projecto Fedora, donde se cuenta con gran cantidad de paquetes disponibles y utilizados por muchas herramientas
+Mostrar grupos disponibles
 
-En CentOS se instala un paquete disponible desde repositorios oficiales
-`yum -y install epel-release`{{execute}}
+`yum group list`{{execute}}
 
-En RHEL no es posible instalar el paquete anterior, debido a que RHEL cuenta con suscripción que provee únicamente paquetes mantenidos por Red Hat, para instalarlo es necesario instalar el siguiente rpm
-`yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm`{{execute}}
+Mostrar grupos instalados
 
-### NOTA:
-En la url de la instrucción anterior, se muestra latest-7, esto es debido a que la versión de RHEL es versión 7, pero en caso es RHEL 8 se utilizaría latest-8, y así sucesivamente con otras versiones futuras o anteriores
+`yum group list installed`{{execute}}
 
-Luego de agregar un repositorio adicional, es necesario actualizar los repositorios
-`yum repolist`{{execute}}
+Debido a que algunos nombres de grupos cuentan con mayúsculas, minúsculas y espacios en blanco, es necesario colocar el nombre del grupo entre comillas dobles, esto con el fin que el intérprete de comandos no tomé cada palabra separada por espacio como grupos distintos
+
+`yum group install "Development Tools"`{{execute}}
+
+Desinstalar un grupo
+
+`yum group remove "Development Tools"`{{execute}}
+
+#### DNF
+Es otro gestor de dependencias, que se utiliza igual que `yum`, esto es debido a que todas las opciones de `yum`, son compatibles con `dnf`.
