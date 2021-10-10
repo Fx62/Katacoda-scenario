@@ -1,7 +1,18 @@
-## Repositorio de software
-Un repositorio es un servidor accesible mediante internet que almacena paquetes y programas que permiten descargar e instalar dicho contenido en distribuciones GNU-Linux.
+Es necesario actualizar los repositorios para descargar las últimas versiones de los paquetes disponibles
 
-## YUM
-Yum (Yellow dog Update, Modified) es una herramienta CLI para administración de paquetes RPM, para gestión gráfica se pueden utilizar herramientas como: pup, pirut y yumex
+`yum repolist`{{execute}}
 
-Con Yum es posible agregar nuevos repositorios de forma local con CD/DVD o por medio de servicios de red utilizando protocolos http, https o ftp
+Es posible buscar paquetes por medio de la opción `search` y aparecerán todas las sugerencias según la búsqueda realizada, siendo en el siguiente ejemplo `tmux` el paquete que se busca
+
+`yum search tmux`{{execute}}
+
+Si se desea obtener toda la información relacionada con un paquete, es necesario colocar el nombre exacto del paquete
+
+`yum info tmux`{{execute}}
+
+Si se desea conocer todo el árbol de dependencias de un paquete se hace uso de la opción `deplist` y el nombre en específico del paquete
+
+`yum deplist tmux`{{execute}}
+
+Es posible mostrar los paquetes instalados en el sistema operativo
+`yum list installed`{{execute}}
