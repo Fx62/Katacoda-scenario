@@ -1,22 +1,19 @@
-# Mantenimiento de paquetes
+Por medio de la opción `install` se pueden instalar uno o varios paquetes separados por un espacio
 
-Mostrar paquetes instalados
-`yum list installed`{{execute}}
+`yum install tmux git screen`{{execute}}
 
-Buscar que paquete provee un comando, un archivo o una librería
-`yum provides COMANDO, ARCHIVO O LIBRERIA`{{execute}}
+El desinstalar también se puede hacer al especificar uno o varios paquetes separados por un espacio
 
-Buscar dependencias de un paquete
-`yum deplist PAQUETE`{{execute}}
+`yum remove tmux screen`{{execute}}
 
-Obtener información de un paquete por medio del nombre
-`yum info PAQUETE`{{execute}}
+Al utilizar la opción `remove`, se desinstalan solamente los paquetes principales que se han especificado, pero las dependencias aún quedan instaladas en el sistema operativo, estas dependencias si no son utilizadas por otros paquetes, estos se conocen como paquetes huérfanos, los cuales también es posible desinstalar
 
-Buscar paquete por nombre o descripción
-`yum search PAQUETE`{{execute}}
+`yum autoremove`{{execute}}
 
-Instalar paquetes
-`yum install PAQUETE`{{execute}}
+Para desinstalar un paquete y todas sus dependencias para no dejar paquetes huérfanos, es posible hacer uso de la opción `autoremove`
 
-Desinstalar paquetes
-`yum remove PAQUETE`{{execute}}
+`yum autoremove git`{{execute}}
+
+Cuando se busca que paquete provee un comando, un archivo o una librería, pero no se conoce el nombre del paquete que los provee, se puede hacer una búsqueda por medio de la opción `provides`
+
+`yum provides /etc/fstab`{{execute}}
