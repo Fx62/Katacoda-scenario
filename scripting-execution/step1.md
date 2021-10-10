@@ -6,3 +6,4 @@ Lo primero que se debe de tener en cuenta es que los archivos pueden o no tener 
 * bash
 * sh
 * python
+* ruby
