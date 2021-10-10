@@ -1,4 +1,1 @@
-En el siguiente apartado se presentan las siguientes acciones de administración con el gestor de paquetes Yum:
- - Actualizar paquetes y sistema operativo
- - Instalar y desinstalar paquetes
- - Agregar repositorios adicionales
+La tarea de administrar paquetes en un sistema operativo puede ser muy distinta, todo depende del gestor de paquetes que el sistema operativo utilice, aunque las acciones son las mismas en cada uno, como listar, buscar, instalar, actualizar, desinstalar, limpiar caché, entre otras tareas.
