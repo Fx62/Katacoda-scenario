@@ -1,6 +1,15 @@
-En el anterior se han mostrado las siguientes acciones de administración con el gestor de paquetes Yum:
- - Actualizar paquetes y sistema operativo
- - Instalar y desinstalar paquetes
- - Agregar repositorios adicionales
+## Temas vistos
+
+En el apartado anterior, se mostraron las siguientes actividades:
+* Actualizar repositorios
+* Buscar paquetes
+* Actualizar paquetes
+* Actualizar el sistema operativo
+* Instalar paquetes
+* Desinstalar paquetes
+* Desinstalar paquetes huérfanos
+* Listar, instalar y desinstalar grupos
+* Dar a conocer el gestor de dependencias `dnf`
+
  
 <a onclick="test()" href="https://fx-learning.mgait.services/finish/packages-yum" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
