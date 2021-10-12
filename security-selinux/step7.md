@@ -10,4 +10,4 @@ Luego de crear el contexto a un directorio, es necesario restaurar dichos contex
 `restorecon -R /data`{{execute}}
 
 #### Nota
-Cada vez que se produce un bloqueo en algún archcivo, proceso, servicio, puerto y el `SELinux` se encuentra activo, se recomienda el verificar el log ubicado en `/var/log/audit/audit.log` porque ahí el `SELinux` guarda los registros con contextos incorrectos
+Cada vez que se produce un bloqueo en algún archivo, proceso, servicio, puerto y el `SELinux` se encuentra activo, se recomienda el verificar el log ubicado en `/var/log/audit/audit.log` porque ahí el `SELinux` guarda los registros con contextos incorrectos
