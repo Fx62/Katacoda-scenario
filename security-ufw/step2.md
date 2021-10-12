@@ -11,7 +11,7 @@ Habilitar servicio `https` en firewall
 `ufw allow https`{{execute}}
 
 #### NOTA
-Cada vez que se agrega o se deniera un puerto o servicio, se aplican 2 reglas, una para `ipv4` y otra para `ipv6`
+Cada vez que se permite o se deniega un puerto o servicio, se aplican 2 reglas, una para `ipv4` y otra para `ipv6`
 
 Mostrar reglas existentes enumeradas
 
