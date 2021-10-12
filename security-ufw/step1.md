@@ -14,7 +14,7 @@ Para exponer un servicio se va a instalar `apache` como servidor web
 
 `yum install -y httpd`{{execute}}
 
-Habilitar e iniciar servicio de `apche`
+Habilitar e iniciar servicio de `apache`
 
 `systemctl enable --now httpd`{{execute}}
 
