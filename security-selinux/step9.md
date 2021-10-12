@@ -5,7 +5,7 @@ Verificar estado del servicio de `apache`
 #### Nota
 El problema de que `apache` no logra iniciar es porque no tiene permisos para utilizar el puerto `6000`, para ello es necesario desactivar el `SELinux` o agregar el puerto `6000` al contexto `http_port_t` de SELinux
 
-Cambiar `SELinux` ha estado `pemissive` de forma temporal
+Cambiar `SELinux` ha estado `permissive` de forma temporal
 
 `setenforce 0`{{execute}}
 
