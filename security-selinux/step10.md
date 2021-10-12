@@ -6,7 +6,7 @@ Volver a reiniciar apache para determinar que vuelve a fallar
 
 `systemctl restart httpd`{{execute}}
 
-Con la opción `-a` es utilizada para agregar, `-t` para indicar el contexto, luego se indica el contexto `http_port_t`, la opción `-p` es utilizada para indicar el protocolo del puerto, en este caso es `tcp` y por último el puerto 6000
+La opción `-a` es utilizada para agregar, `-t` para indicar el contexto, luego se indica el contexto `http_port_t`, la opción `-p` es utilizada para indicar el protocolo del puerto, en este caso es `tcp` y por último el puerto 6000
 
 `semanage port -a -t http_port_t -p tcp 6000`{{execute}}
 
