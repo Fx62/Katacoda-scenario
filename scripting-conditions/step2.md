@@ -24,6 +24,6 @@ if false
 then
   echo "La condición if es verdadera"
 else
-  echo “La condición if es falsa”
+  echo "La condición if es falsa"
 fi
 ```{{execute}}
