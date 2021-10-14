@@ -10,8 +10,8 @@
     },
     {
       "course_id": "scripting-datatypes",
-      "title": "Tipos de datos",
-      "description": "Tipos y estructuras de datos"
+      "title": "Variables y arrays",
+      "description": "Asignación y acceso a valores de variables y arrays"
     },
     {
       "course_id": "scripting-conditions",
@@ -20,8 +20,8 @@
     },
     {
       "course_id": "scripting-loops",
-      "title": "Boocles",
-      "description": "Tipos de boocles con condicionales"
+      "title": "Bucles",
+      "description": "Tipos de bucles con condicionales"
     }
   ]
 }
