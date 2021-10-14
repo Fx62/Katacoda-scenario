@@ -1,17 +1,17 @@
 #### Nota
 Cada vez que se ejecuta un comando, este retorna un código de ejecución, donde `0` significa que el comando se ejecutó de forma exitosa y cualquier otro número representa un error
 
-Ejecutar el comando `whoami` para el usuario root
+Ejecutar el comando `id` para el usuario root
 
-`whoami root`{{execute}}
+`id root`{{execute}}
 
 Al verificar el código que retornó el comando anterior, este debe de ser `0`, porque el comando anterior es válido y el usuario existe en el sistema operativo
 
 `echo $?`{{execute}}
 
-Volver a ejecutar el comando `whoami` para el usuario `toor`
+Volver a ejecutar el comando `id` pero ahora para el usuario `toor`
 
-`whoami toor`{{execute}}
+`id toor`{{execute}}
 
 Al verificar el código que retornó el comando anterior, dicho valor es `1`,  esto es debido a que el usuario `toor` no existe en el sistema operativo
 
