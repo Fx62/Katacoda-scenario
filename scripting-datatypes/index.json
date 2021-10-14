@@ -1,29 +1,21 @@
 {
-  "title": "Tipos de datos",
-  "description": "Tipos y estructuras de datos",
+  "title": "Variables y arrays",
+  "description": "Asignación y acceso a valores de variables y arrays",
   "difficulty": "Intermediate",
   "time": "5 minutos",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
     ],
     "intro": {
