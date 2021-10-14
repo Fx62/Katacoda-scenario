@@ -2,8 +2,8 @@ Los nombres de variables se asignan con el nombre seguido de un signo igual y lu
 
 ```
 VARIABLE1=VALOR
-VARIABLE2=’VALOR 2’
-VARIABLE3=”VARIABLE 3”
+VARIABLE2='VALOR 2'
+VARIABLE3="VARIABLE 3"
 ```{{execute}}
 
 #### Nota
