@@ -1,29 +1,25 @@
-Otra forma de realizar las mismas validaciones del ejercició anterior, es utilizando la instrucción `case`
+Realizar las siguientes instrucciones con las siguientes condicionales
 
 ```bash
-case EXPRESIÓN in
-  VALOR1)
-    ACCIONES
-    ;;
-  VALOR2)
-    ACCIONES
-    ;;
-  VALOR3 | VALOR4)
-    ACCIONES
-    ;;
-  *)
-    ACCIONES
-    ;;
-esac
-```
+if [ $COMPARAR == 0 ] || [ $COMPARAR == 1 ]
+then 
+  echo "La variable COMPARAR es igual a 0 ó 1"
+elif [ $COMPARAR == 2 ]
+then 
+  echo "La variable COMPARAR es igual a 2"
+elif [ $COMPARAR == 3 ]
+then 
+  echo "La variable COMPARAR es igual a 3"
+else 
+  echo "La variable COMPARAR es distinta a 0, 1, 2 o 3"
+fi
+```{{execute}}
 
-Estructura para forma un bloque `case`
-Caracteres | Significado
---- | ---
-case | Es para iniciar el bloque de `case`
-in | Para agregar listado de valores a comparar con la expresión agregada en `case`
-**X**) | El valor a comparar, es decir que es un equivalente a `EXPRESIÓN == X`
-\| | Es un or 
-;; | Indica el final del bloque de las acciones a ejecutar 
-\* | Para ejecutar el bloque en caso no se cumpla ninguna condición, es lo equivalente a `else`
-esac | para indicar el final del bloque `case`
+#### Nota
+Al ejecutarse el bloque anterior, se muestra en pantalla el mensaje `La variable COMPARAR es igual a 3` esto es debido a que tanto la condición `if` y `elif` anteriores, fueron condiciones falsas
+
+Ahora modificar la variable `COMPARAR` y asignar un valor 4
+
+`COMPARAR=4`{{execute}}
+
+Ahora si se vuelve a ejecutar el bloque condicional, el mensaje que se debe de mostrar es `La variable COMPARAR es distinta a 0, 1, 2 o 3`, esto es debido a que ninguna condicional es verdadera y por ende ingresa al bloque de `else`
