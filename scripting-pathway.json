@@ -9,7 +9,7 @@
       "description": "Creación y ejecución de scripts"
     },
     {
-      "course_id": "scripting-datatypes",
+      "course_id": "scripting-variables",
       "title": "Variables y arrays",
       "description": "Asignación y acceso a valores de variables y arrays"
     },
