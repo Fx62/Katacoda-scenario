@@ -18,7 +18,7 @@ Condición | Significado
 [ CAMPO1 >= CAMPO2 ] | Verdadero si el CAMPo1 es mayor o igual al CAMPO2
 [ !CONDICIÓN ] | Verdadero si la CONDICIÓN es falsa
 [ CONDICIÓN1 ] && [ CONDICIÓN2 ] | Verdadero si ambas condiciones son verdaderas
-[ CONDICIÓN1 ] || [ CONDICIÓN2 ] | Verdadero si una o ambas condiciones son verdaderas
+[ CONDICIÓN1 ] `||` [ CONDICIÓN2 ] | Verdadero si una o ambas condiciones son verdaderas
 
 #### NOTA
 Las condiciones pueden realizarse de diferentes formas para facilitar ciertas validaciones, para ello se puede ver más información en el siguiente link.
