@@ -1,20 +1,29 @@
-La instrucción `case` a diferencia de `if`, no lleva una condicional, sino solamente el nombre de la expresión que se evalúa, la comparación se realiza en cada una de las sentencias antes del paréntesis de cierre
+Otra forma de realizar las mismas validaciones del ejercició anterior, es utilizando la instrucción `case`
 
 ```bash
-case $COMPARAR in
-  0 | 1)
-    echo "La variable COMPARAR es igual a 0 ó 1"
+case EXPRESIÓN in
+  VALOR1)
+    ACCIONES
     ;;
-  2)
-    echo "La variable COMPARAR es igual a 2"
+  VALOR2)
+    ACCIONES
     ;;
-  3)
-    echo "La variable COMPARAR es igual a 3"
+  VALOR3 | VALOR4)
+    ACCIONES
     ;;
   *)
-    echo "La variable COMPARAR es distinta a 0, 1, 2 o 3"
+    ACCIONES
     ;;
 esac
-```{{execute}}
+```
 
-Debido a que la variable `COMPARAR` tiene el valor 4, el mensaje que se muestra es: `La variable COMPARAR es distinta a 1, 2 o 3`, ya que el bloque con \* fue el que se ejecutó, al cambiar el valor de la variable `COMPARAR`, se pueden obtener distintos resultados según los valores a comparar
+Estructura para forma un bloque `case`
+Caracteres | Significado
+--- | ---
+case | Es para iniciar el bloque de `case`
+in | Para agregar listado de valores a comparar con la expresión agregada en `case`
+**X**) | El valor a comparar, es decir que es un equivalente a `EXPRESIÓN == X`
+\| | Es un or 
+;; | Indica el final del bloque de las acciones a ejecutar 
+\* | Para ejecutar el bloque en caso no se cumpla ninguna condición, es lo equivalente a `else`
+esac | para indicar el final del bloque `case`
