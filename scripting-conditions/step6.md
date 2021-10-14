@@ -18,6 +18,7 @@ esac
 ```
 
 Estructura para forma un bloque `case`
+
 Caracteres | Significado
 --- | ---
 case | Es para iniciar el bloque de `case`
