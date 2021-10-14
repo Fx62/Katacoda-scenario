@@ -18,7 +18,7 @@ Con el comando `echo` se muestra un texto en pantalla, al agregar como argumento
 
 El valor de una variable puede ser reemplazado en cualquier momento
 
-VARIABLE=/dev
+`VARIABLE=/dev`{{execute}}
 
 El siguiente comando es similar a ejecutar el comando `ls` en el directorio `/dev/pst`, debido a que la variable llamada `VARIABLE` tiene el valor asignado de `/dev`
 
