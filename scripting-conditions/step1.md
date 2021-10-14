@@ -13,6 +13,7 @@ if true
 then
   echo "La condición if es verdadera"
 fi
+```{{execute}}
 
 #### Nota
 Los espacios entre cada nivel de las condicionales y ciclos no son obligatorios, pero se recomienda el agregarlos para estructurar de una manera más legible.
