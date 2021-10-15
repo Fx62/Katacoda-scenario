@@ -7,7 +7,7 @@ En ansible por defecto existe un grupo llamado `all`, dicho grupo hace referenci
 
 Al verificar el listado de hosts del grupo `all`, se muestra nuevamente `localhost`, ya que es el único host del inventario
 
-`ansible servidores -i inventory --list-hosts`{{execute}}
+`ansible all -i inventory --list-hosts`{{execute}}
 
 Utilizando el comando `ansible`, se agrega el nombre del grupo donde se ejecutará una tarea, luego la opción `-m`, seguido por el nombre del módulo `ping`
 
