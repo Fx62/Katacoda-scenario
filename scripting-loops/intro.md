@@ -1,0 +1,1 @@
+Los bucles son secuencias de instrucciones que se ejecutan de forma repetida mientras una condición se cumpla, cuando dicha condición deja de cumplirse, simplemente se continúa con el resto de instrucciones que ya no pertenecen al ciclo
