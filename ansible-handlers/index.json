@@ -29,6 +29,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ansible-centos"
+    "imageid": "centos-vm"
   }
 }
