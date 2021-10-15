@@ -1,0 +1,1 @@
+Desde ansible se pueden utilizar adhocs para la ejecución de un módulo desde la línea de comandos, dicho adhoc puede ejecutarse en `n` cantidad de equipos de forma simultánea según el listado de hosts del inventario
