@@ -1,0 +1,1 @@
+Son tecnologías que permiten empaquetar y aislar las aplicaciones junto con todo el entorno de tiempo de ejecución, es decir, con todos los archivos que requieren para ejecutarse. Esto permite mover la aplicación que se encuentra dentro del contenedor entre los entornos (de desarrollo, de prueba, de producción, etc.), sin perder ninguna de sus funciones.
