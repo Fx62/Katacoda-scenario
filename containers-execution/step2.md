@@ -10,4 +10,4 @@ Al crear un contenedor de la imagen de `mongo`, se muestra una gran cantidad de 
 
 Para ejecutar el contenedor en `background`, se agrega la opción `-d` después de la instrucción `run`, con ello solamente muestra un identificador generado de forma automática en la creación del contenedor y devuelve el `prompt`, ya que el nuevo contenedor se ejecuta en segundo plano y con la opción `--name` se crea el contenedor con un nombre en específico y no con un nombre aleatorio
 
-`docker run -d --name apace quay.io/redhattraining/httpd-parent:2.4`{{execute}}
+`docker run -d --name apache quay.io/redhattraining/httpd-parent:2.4`{{execute}}
