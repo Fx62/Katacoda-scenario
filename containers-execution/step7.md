@@ -1,25 +1,13 @@
-#### Nota
-Los  volúmenes pueden mapearse por un directorio en específico al indicar una ruta absoluta y no solamente el nombre del volumen, solamente se debe de tener en cuenta los permisos del directorio para que cuente con permisos de lectura, escritura y contextos de `SELinux`  en caso se encuentre en estado `enforcing`
+Ejecutar contenedor de base de datos `mysql` con el nombre de `mysql-basic`, creando un usuario llamado `user` con contraseña `mypa55`, creando una base de datos llamada `fxlearning` y la contraseña del usuario `root` como `r00tpa55` en segundo plano
 
-Mostrar los volúmenes existentes
+`docker run --name mysql-basic \
+> -e MYSQL_USER=user -e MYSQL_PASSWORD=mypa55 \
+> -e MYSQL_DATABASE=fx-learning -e MYSQL_ROOT_PASSWORD=r00tpa55 \
+> -d registry.access.redhat.com/rhscl/mysql-57-rhel7:latest`{{execute}}
 
-`docker volume ls`{{execute}}
+#### Volúmenes
+Debido a que los contenedores son efímeros, en caso se detienen toda información que almacenan se pierde, se pueden mapear volúmenes a partir de un directorio local del equipo host, es decir que la información que almacenan los contenedores en los volúmenes, son almacenados en un directorio de equipo host
 
-Mostrar la ubicación del volumen llamado nginx
+Los volúmenes se mapean con la opción `-v` y de igual manera que los puertos, donde se separan dos valores por medio de `:`, el primer valor es el nombre del directorio del equipo host y el segundo valor es el directorio en el contenedor donde se monta el volumen
 
-`docker volume inspect nginx`{{execute}}
-
-Consumir servicio de nginx en el puerto 9000 de localhost
-
-`curl http://localhost:9000`{{execute}}
-
-Reemplazar contenido del archivo `index.html` ubicado en el directorio que apareció en la variable `Mountpoint` al ejecutar `docker volume inspect nginx`
-
-`echo Fx-learning > /var/lib/docker/volumes/nginx/_data/index.html`{{execute}}
-
-Al volver a consumir el servicio el contenido que retorna la página es `Fx-learning` que se agregó al archivo `index.html` en el directorio que corresponde al volumen
-
-`curl http://localhost:9000`{{execute}}
-
-#### Nota
-En caso se destruya el contenedor de nginx, solamente con volver a mapear el mismo volumen a un nuevo contenedor, se expondría el mismo sitio web, de igual manera sucede con cualquier otro tipo de contenedor con volumen persistente
+`docker run -d --name nginx -v nginx:/usr/share/nginx/html -p 9000:80 nginx`{{execute}}
