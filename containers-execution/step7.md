@@ -1,9 +1,6 @@
 Ejecutar contenedor de base de datos `mysql` con el nombre de `mysql-basic`, creando un usuario llamado `user` con contraseña `mypa55`, creando una base de datos llamada `fxlearning` y la contraseña del usuario `root` como `r00tpa55` en segundo plano
 
-`docker run --name mysql-basic \
-> -e MYSQL_USER=user -e MYSQL_PASSWORD=mypa55 \
-> -e MYSQL_DATABASE=fx-learning -e MYSQL_ROOT_PASSWORD=r00tpa55 \
-> -d registry.access.redhat.com/rhscl/mysql-57-rhel7:latest`{{execute}}
+`docker run --name mysql-basic -e MYSQL_USER=user -e MYSQL_PASSWORD=mypa55 -e MYSQL_DATABASE=fx-learning -e MYSQL_ROOT_PASSWORD=r00tpa55 -d registry.access.redhat.com/rhscl/mysql-57-rhel7:latest`{{execute}}
 
 #### Volúmenes
 Debido a que los contenedores son efímeros, en caso se detienen toda información que almacenan se pierde, se pueden mapear volúmenes a partir de un directorio local del equipo host, es decir que la información que almacenan los contenedores en los volúmenes, son almacenados en un directorio de equipo host
