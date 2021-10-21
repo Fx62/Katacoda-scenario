@@ -15,4 +15,4 @@ El comando anterior muestra varias imágenes de mongo, se recomienda el utilizar
 
 La opción `pull` es solamente para descargar imágenes y puede o no llevar opciones adicionales, luego se recomienda el incluir el nombre del `registry` y puerto donde se exponen las imágenes a descargar, seguido el `namespace`, imagen y tag
 
-**docker pull** *[OPCIONES] [REGISTRY[:PUERTO]/][NAMESPACE]/***IMAGEN***[:TAG]*
+**docker pull** *[OPCIONES] [REGISTRY[:PUERTO]/][NAMESPACE]/*__IMAGEN__*[:TAG]*
