@@ -1,4 +1,4 @@
-El primer pasó es instalar docker
+El primer paso es instalar docker
 
 `yum install -y docker-ce`{{execute}}
 
