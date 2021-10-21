@@ -1,0 +1,1 @@
+Para ejecutar contenedores se necesita de una herramienta de gestión, en los siguientes apartados se utilizará `docker`, aunque existen otras herramientas como `podman` o `crio` que solamente cambia el nombre del comando, porque todas las demás opciones son idénticas a `docker`
