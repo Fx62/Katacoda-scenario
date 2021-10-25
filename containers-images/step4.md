@@ -4,7 +4,7 @@ Ejecutar nuevo contenedor a partir de la imagen restaurada y con el tag `dev`
 
 Ingresar al intérprete de `bash` del nuevo contenedor
 
-`docker exec -it apache-init-dev mongo`{{execute}}
+`docker exec -it apache-init-dev bash`{{execute}}
 
 Verificar que la respuesta del servidor web es la misma respuesta del contenedor `apache` que fue ingresada al archivo `/var/www/html/index.html`
 
