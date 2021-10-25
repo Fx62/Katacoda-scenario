@@ -1,6 +1,6 @@
 Ejecutar nuevo contenedor a partir de la imagen restaurada y con el tag `dev`
 
-`docker run --name mongo-init:dev -d mongo-init-dev`{{execute}}
+`docker run --name mongo-init-dev -d mongo-init:dev`{{execute}}
 
 Ingresar al intérprete de mongo del nuevo contenedor
 
