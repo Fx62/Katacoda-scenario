@@ -41,6 +41,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "dotnet-docker"
+    "imageid": "centos-vm"
   }
 }
