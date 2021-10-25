@@ -1,0 +1,1 @@
+Debido a que los contenedores son efímeros y al destruirse pueden generarse a partir de una imagen, muchas veces se requiere que alguna imagen en específico cuente con un cambio y para ello es necesario el generar una nueva imagen al guardar el estado de un contenedor 
