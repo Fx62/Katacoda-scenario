@@ -1,6 +1,6 @@
 Crear un nuevo contenedor llamado `apache` en `background` con imagen llamada `quay.io/redhattraining/httpd-parent:2.4`
 
-`docker run --name apache -d apache`{{execute}}
+`docker run --name apache -d quay.io/redhattraining/httpd-parent:2.4`{{execute}}
 
 Ingresar en modo interactivo al intérprete de comandos de `bash` del contenedor de `apache` con las opciones `exec -it`
 
