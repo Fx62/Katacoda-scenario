@@ -1,22 +1,18 @@
-Crear un nuevo contenedor llamado `mongodb` en `background` con imagen llamada `mongo`
+Crear un nuevo contenedor llamado `apache` en `background` con imagen llamada `quay.io/redhattraining/httpd-parent:2.4`
 
-`docker run --name mongodb -d mongo`{{execute}}
+`docker run --name apache -d apache`{{execute}}
 
-Ingresar en modo interactivo al comando `mongo` del contendor llamado `mongodb`
+Ingresar en modo interactivo al intérprete de comandos de `bash` del contenedor de `apache` con las opciones `exec -it`
 
-`docker exec -it mongodb mongo`{{execute}}
+`docker exec -it apache bash`{{execute}}
 
 #### Nota
-El `prompt` que retorna el comando anterior no es el de `bash`, sino que muestra el de la base de datos `mongo`
+El `prompt` que retorna el comando anterior es el de `bash` del contenedor y no del equipo host
 
-Crear base de datos `fx-learning` en `mongodb`
+Verificar contenido que expone el servidor web
 
-`use fx-learning`{{execute}}
+`curl localhost`{{execute}}
 
-Crear colección de cursos
+Reemplazar contenido del archivo `/var/www/html/index.html`
 
-`db.createCollection('cursos')`{{execute}}
-
-Insertar 2 cursos a la colección llamada curso
-
-`db.cursos.insert([{nombre: 'docker'}, {nombre: 'ansible'}])`{{execute}}
+`echo Fx-learning > /var/www/html/index.html`{{execute}}
