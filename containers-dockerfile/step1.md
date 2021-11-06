@@ -11,6 +11,10 @@ Lo primero que hay que realizar es crear el directorio de trabajo, dicho directo
 ##### Nota
 En el directorio de trabajo debe de existir todos los archivos que serán utilizados para transferirlos a la nueva imagen, esto es debido a que no pueden copiarse archivos en niveles superiores a este directorio
 
+Acceder al directorio creado
+
+`cd docker`{{execute}}
+
 La nueva imagen a construir se basa en ejecutar un `API` de *nodejs*, para ello se crea el archivo `app.js` con el siguiente contenido
 
 ```javascript
