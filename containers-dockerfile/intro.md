@@ -1,0 +1,1 @@
+Un dockerfile es un archivo de texto con un conjunto de comandos e instrucciones. En el cual los comandos e instrucciones se ejecutan sucesivamente para realizar acciones en una imagen base para crear una nueva imagen.
