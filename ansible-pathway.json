@@ -5,7 +5,7 @@
   "courses": [
     {
       "course_id": "ansible-definitions",
-      "title": "Ansible",
+      "title": "Definiciones",
       "description": "Definiciones y terminos de ansible"
     },
     {
