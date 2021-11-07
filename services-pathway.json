@@ -10,7 +10,7 @@
     },
     {
       "course_id": "services-systemctl",
-      "title": "Systemctl",
+      "title": "Systemd",
       "description": "Gestión de servicios con Systemctl"
     }
   ]
