@@ -3,30 +3,31 @@
   "title": "Gestores de paquetes",
   "description": "Gestores de paquetes para administración de dependencias en sistmas operativos GNU-Linux",
   "courses": [
-    {
-      "course_id": "packages-yum",
-      "title": "Gestor de paquetes yum",
-      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Red Hat Enterprise Linux"
-    },
-    {
-      "course_id": "packages-apt",
-      "title": "Gestor de paquetes apt",
-      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian"
-    },
-    {
-      "course_id": "packages-rpm",
-      "title": "Gestor de paquetes RPM",
-      "description": "Administración de paquetes rpm"
-    },
-    {
-      "course_id": "packages-dpkg",
-      "title": "Gestor de paquetes deb",
-      "description": "Administrar paquetes .deb con dpkg"
-    },
+    
     {
       "course_id": "packages-repositories",
       "title": "Repositorios",
       "description": "Definiciones sobre paquetes y dependencias"
+    },
+    {
+      "course_id": "packages-yum",
+      "title": "Yum",
+      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Red Hat Enterprise Linux"
+    },
+    {
+      "course_id": "packages-apt",
+      "title": "Apt",
+      "description": "Gestor de paquetes para distribuciones basadas en el sistema operativo Debian"
+    },
+    {
+      "course_id": "packages-rpm",
+      "title": "Rpm",
+      "description": "Administración de paquetes rpm"
+    },
+    {
+      "course_id": "packages-dpkg",
+      "title": "Deb",
+      "description": "Administrar paquetes .deb con dpkg"
     }
   ]
 }
