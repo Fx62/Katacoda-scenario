@@ -17,6 +17,11 @@
       "course_id": "ansible-adhocks",
       "title": "Adhocks",
       "description": "Ejecución de Adhocks"
+    },
+    {
+      "course_id": "ansible-playbooks1",
+      "title": "Playbooks",
+      "description": "Creación de playbooks"
     }
   ]
 }
