@@ -8,4 +8,4 @@ En el apartado anterior, se mostraron las siguientes actividades con SELinux:
 * Agregar puertos a contextos
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/security-selinux" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/security-selinux" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

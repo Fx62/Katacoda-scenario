@@ -11,4 +11,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 <li> Menciones sobre `apt-get` y `aptitude`
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/packages-apt" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/packages-apt" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

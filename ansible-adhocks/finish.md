@@ -7,4 +7,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 * Ejecutar comando adhocs
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/ansible-adhocks" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/ansible-adhocks" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

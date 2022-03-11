@@ -6,4 +6,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 <li> Borrar archivos
 <li> Mostrar contenido de archivos
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/basic-files" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/basic-files" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

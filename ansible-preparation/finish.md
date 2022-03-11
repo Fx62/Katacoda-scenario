@@ -10,4 +10,4 @@ En el apartado anterior, se mostraron las siguientes actividades:
 * Verificar conectividad por medio del módulo `ping` de ansible
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/ansible-preparation" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/ansible-preparation" target="_parent" class="btn primary-btn">Marcar como finalizado</a>

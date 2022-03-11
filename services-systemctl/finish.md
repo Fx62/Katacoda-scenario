@@ -9,4 +9,4 @@ En el apartado anterior, se mostraron las siguientes actividades con Systemd:
 * Recargar servicios
 
 
-<a onclick="test()" href="https://fx-learning.mgait.services/finish/services-systemctl" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
+<a onclick="test()" href="https://fxlearning.142-44-244-147.nip.io/finish/services-systemctl" target="_parent" class="btn primary-btn">Marcar como finalizado</a>
